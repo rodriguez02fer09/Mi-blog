@@ -32,6 +32,16 @@ header .header-icons-container .icons {
   align-items: center;
   justify-content: space-between;
   justify-self: end;
-  margin-right:50px;
+  margin-right: 50px;
 }
+header .icons span {
+  color: white;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+nav .nav-logo-container {
+  margin-left: 50px;
 }
