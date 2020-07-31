@@ -15,6 +15,14 @@ a {
   display: inline;
   color: black;
 }
+.home-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 header {
   width: 100%;
   height: 140px;
@@ -64,49 +72,14 @@ nav .profile-link a {
 .profile-link a:hover {
   text-decoration: underline;
 }
-.main-home {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  height: 100%;
-  background-image: url("../imagenes/home-main.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.main-title {
-  display: grid;
-  grid-column: 2;
-  justify-items: center;
-  height: 350px;
-  margin-top: 80px;
-}
-.main-title p {
-  font-family: "Roboto mono", monospace;
-  font-size: 30px;
-  font-weight: 800px;
-  letter-spacing: 10px;
-  color: black;
-  align-items: center;
-}
-.home-main-buttom {
-  width: 110px;
-  height: 50px;
-  background-color: #db7093;
-  display: grid;
-  align-items: center;
-}
-.home-main-buttom a {
-  font-weight: 700;
-  font-size: 18px;
-}
 footer {
   width: 100%;
   height: 80px;
-  background-color: black;
+  background-color: #22272d;
   border-top: 35px solid #db7093;
   text-align: center;
 }
 footer p {
-  color: wheat;
+  color: white;
   margin-top: 30px;
 }
